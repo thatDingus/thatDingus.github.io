@@ -3,10 +3,26 @@
 body {
     margin: 0px;
     padding: 0px;
+    background-color: #161616;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, p, a {
     margin: 0px;
     padding: 0px;
     font-family: Roboto;
+    color: white;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#header {
+    background: linear-gradient(90deg, #346751, transparent);
+}
+
+#nav {
+    background: linear-gradient(90deg, #c84b31, transparent);
 }
