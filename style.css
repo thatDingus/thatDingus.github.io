@@ -26,3 +26,27 @@ a {
 #nav {
     background: linear-gradient(90deg, #c84b31, transparent);
 }
+
+#content-header, #main-content {
+    margin-left: 20vw;
+    margin-top: 5vh;
+    width: 60vw;
+    height: auto;
+    background: #ecdbba;
+}
+
+.left-title {
+    color: black;
+    display: block;
+    text-align: left;
+}
+
+.right-title {
+    color: black;
+    display: block;
+    text-align: right;
+}
+
+.paragraph {
+    color: black;
+}
