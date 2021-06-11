@@ -20,11 +20,18 @@ a {
 }
 
 #header {
-    background: linear-gradient(90deg, #346751, transparent);
+    background: linear-gradient(-90deg, #346751, transparent);
+    margin-right: 20vw;
+    border-top-right-radius: 100pc;
+    border-bottom-right-radius: 100pc;
 }
 
 #nav {
     background: linear-gradient(90deg, #c84b31, transparent);
+    margin-left: 20vw;
+    width: 80vw;
+    border-top-left-radius: 100pc;
+    border-bottom-left-radius: 100pc;
 }
 
 #content-header, #main-content {
@@ -35,15 +42,19 @@ a {
     background: #ecdbba;
 }
 
+#main-content {
+    margin-top: 0;
+}
+
 .left-title {
     color: black;
-    display: block;
+    display: inline-block;
     text-align: left;
 }
 
 .right-title {
     color: black;
-    display: block;
+    display: inline-block;
     text-align: right;
 }
 
