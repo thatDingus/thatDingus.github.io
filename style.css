@@ -21,15 +21,16 @@ a {
 
 #header {
     background: linear-gradient(-90deg, #346751, transparent);
-    margin-right: 20vw;
+    width: 81vw;
     border-top-right-radius: 100pc;
     border-bottom-right-radius: 100pc;
 }
 
 #nav {
     background: linear-gradient(90deg, #c84b31, transparent);
-    margin-left: 20vw;
-    width: 80vw;
+    margin-left: 19vw;
+    padding-left: 1;
+    width: 81vw;
     border-top-left-radius: 100pc;
     border-bottom-left-radius: 100pc;
 }
@@ -44,6 +45,7 @@ a {
 
 #main-content {
     margin-top: 0;
+    padding-top: 10px;
 }
 
 .left-title {
