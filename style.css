@@ -29,18 +29,23 @@ a {
 #nav {
     background: linear-gradient(90deg, #c84b31, transparent);
     margin-left: 19vw;
-    padding-left: 1;
     width: 81vw;
     border-top-left-radius: 100pc;
     border-bottom-left-radius: 100pc;
 }
 
-#content-header, #main-content {
-    margin-left: 20vw;
+#content-header, #main-content, .featured-section-titler {
+    margin-left: 19vw;
     margin-top: 5vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
     width: 60vw;
     height: auto;
     background: #ecdbba;
+}
+
+.featured-section-titler {
+    border-radius: 10px;
 }
 
 #content-header {
@@ -52,12 +57,21 @@ a {
 #main-content {
     margin-top: 0;
     padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .left-title {
     color: black;
     display: inline-block;
     text-align: left;
+}
+
+.middle-title {
+    color: black;
+    display: block;
+    text-align: center;
 }
 
 .right-title {
