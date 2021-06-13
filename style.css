@@ -43,6 +43,12 @@ a {
     background: #ecdbba;
 }
 
+#content-header {
+    padding-top: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
 #main-content {
     margin-top: 0;
     padding-top: 10px;
