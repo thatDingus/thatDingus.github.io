@@ -34,6 +34,11 @@ a {
     border-bottom-left-radius: 100pc;
 }
 
+#nav-button:hover {
+    animation: flash;
+    animation-duration: 0.5s;
+}
+
 #content-header, #main-content, .featured-section-titler {
     margin-left: 19vw;
     margin-top: 5vh;
@@ -82,4 +87,28 @@ a {
 
 .paragraph {
     color: black;
+}
+
+#error, #error-sub {
+    font-size: xx-large;
+    color: black;
+    display: block;
+}
+
+#error {
+    font-size: 30vw;
+}
+
+.error-book {
+    text-align: center;
+}
+
+#info {
+    width: 100vw;
+    height: 100vh;
+}
+
+#items {
+    width: min-content;
+    height: min-content;
 }
