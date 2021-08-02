@@ -1,0 +1,48 @@
+/* https://coolors.co/1f0322-8a1c7c-da4167-f0bcd4-899d78 */
+
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
+
+* {
+    margin: 0;
+}
+/* Ids */
+
+#content {
+    margin: 0px;
+    float: left;
+    background-color: 1F0322;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Classes */
+
+.transform-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hover-mouse:hover {
+    cursor: pointer;
+}
+
+.redirector {
+    line-height: 5vw;
+}
+
+.nodisp {
+    display: none;
+}
+
+.disp {
+    display: block;
+}
+
+/* Elements */
+
+audio {
+    display: none;
+}

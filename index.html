@@ -1,41 +1,35 @@
-<!DOCTYPE html>
-
 <html>
     <head>
-        <title>home \\ thatDingus</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="apple-touch-icon-precomposed" href="favicon.png">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        <title>Website</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+        <script src="hover.js"></script>
     </head>
     <body>
-        <div id="header">
-            <h1 class="animate__animated animate__pulse" style="left: 20vw; position: relative;">thatDingus</h1>
-            <h1 style="right: 1vw;position: relative; float: right; opacity: 50%; cursor: default;">[home]</h1>
-        </div>
-        <div id="nav">
-            <a id="nav-button" style="left: 1vw; position: relative;" href="index.html">[home]</a>
-            <a id="nav-button" style="left: 1vw; position: relative;" href="music.html">[music]</a>
-            <a id="nav-button" style="left: 1vw; position: relative;" href="blog.html">[blog]</a>
-            <a id="nav-button" style="left: 1vw; position: relative;" href="contact.html">[contact]</a>
-        </div>
-        <div class="featured-section-titler">
-            <h1 class="middle-title">Featured</h1>
-        </div>
-        <div class="posts">
-            <div class="post">
-                <div id="content-header">
-                    <h1 class="left-title">Welcome to thatDingus</h1>
-                    <h3 class="right-title" style=" float: right; opacity: 50%; cursor: default;">11/06/21</h3>
-                    <hr style="margin: 0; margin-top: 10px; border-style: dashed; opacity: 50%;">
+        <div style="width: 100vw;" id="content">
+            <div style="width: 100vw;" class="transform-center">
+                <div class="animate__animated disp" id="greeter-page-1">
+                    <h1 onclick="redirect('https://soundcloud.com/thatdingus')" class="hover-mouse redirector" style="font-family: Holtwood One SC; color: F0BCD4; font-size: 5vw; text-align: center;">MY MUSIC</h1>
+                    <h1 onclick="redirect()" class="hover-mouse redirector" style="font-family: Holtwood One SC; color: F0BCD4; font-size: 5vw; text-align: center;">YOUTUBE VIDEOS</h1>
+                    <h1 onclick="pagedown()" class="hover-mouse redirector" style="font-family: Holtwood One SC; color: F0BCD4; font-size: 5vw; text-align: center;"><i class="fas fa-angle-down"></i></h1>
                 </div>
-                <div id="main-content">
-                    <p class="paragraph">This is the first post on the whole website</p>
+             </div>
+             <div style="width: 100vw" class="transform-center">
+                <div class="animate__animated nodisp" id="greeter-page-2">
+                    <h1 onclick="pageup()" class="hover-mouse redirector" style="font-family: Holtwood One SC; color: F0BCD4; font-size: 5vw; text-align: center;"><i class="fas fa-angle-up"></i></h1>
+                    <h1 onclick="redirect()" class="hover-mouse redirector" style="font-family: Holtwood One SC; color: F0BCD4; font-size: 5vw; text-align: center;">STUFF</h1>
+                    <h1 onclick="redirect()" class="hover-mouse redirector" style="font-family: Holtwood One SC; color: F0BCD4; font-size: 5vw; text-align: center;">MORE STUFF</h1>
+                    <h1 onclick="pagedown()" class="hover-mouse redirector" style="font-family: Holtwood One SC; color: F0BCD4; font-size: 5vw; text-align: center;"><i class="fas fa-angle-down"></i></h1>
                 </div>
-            </div>
-            </div>
-        </div>
-        <div id="footer">
+             </div>
+             <div style="width: 100vw" class="transform-center">
+                <div class="animate__animated nodisp" id="greeter-page-3">
+                    <h1 onclick="pageup()" class="hover-mouse redirector" style="font-family: Holtwood One SC; color: F0BCD4; font-size: 5vw; text-align: center;"><i class="fas fa-angle-up"></i></h1>
+                    <h1 onclick="redirect()" class="hover-mouse redirector" style="font-family: Holtwood One SC; color: F0BCD4; font-size: 5vw; text-align: center;">STUFF</h1>
+                    <h1 onclick="redirect()" class="hover-mouse redirector" style="font-family: Holtwood One SC; color: F0BCD4; font-size: 5vw; text-align: center;">MORE STUFF</h1>
+                </div>
+             </div>
         </div>
     </body>
 </html>
