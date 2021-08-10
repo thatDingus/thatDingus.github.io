@@ -1,4 +1,4 @@
-# thatDingus.github.io
+# <h1 style="text-align: right;">thatDingus.github.io</h1>
 
 My personal website
 
