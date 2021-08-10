@@ -1,4 +1,4 @@
-#thatDingus.github.io
+# thatDingus.github.io
 
 My personal website
 
