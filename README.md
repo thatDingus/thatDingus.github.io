@@ -2,4 +2,4 @@
 
 My personal website
 
-<b>Acess it here</b>
+<b><a href="https://thatdingus.github.io">Access it here</a></b>
