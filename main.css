@@ -29,7 +29,7 @@
     cursor: pointer;
 }
 
-.redirector {
+.redirector, .arrow {
     line-height: 5vw;
 }
 

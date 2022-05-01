@@ -20,10 +20,7 @@ function pagedown() {
         secondpage.classList.remove(inanimback);
     });
     currentpage = currentpage + 1
-    numberpage.addEventListener('animationend', () => {
-        numberpage.innerHTML = currentpage
-        numberpage.classList.remove(outanimback)
-    });
+
 }
 
 function pageup() {
@@ -42,5 +39,4 @@ function pageup() {
         secondpage.classList.remove(inanim);
     });
     currentpage = currentpage - 1
-    document.getElementById("pagenumber").innerHTML = currentpage
 }
