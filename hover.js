@@ -9,11 +9,9 @@ function pagedown() {
     secondpage = document.getElementById("greeter-page-" + (currentpage + 1))
     firstpage.classList.add(outanimback)
     firstpage.addEventListener('animationend', () => {
-        firstpage.classList.remove("disp")
         firstpage.classList.add("nodisp")
         firstpage.classList.remove(outanimback)
     });
-    secondpage.classList.add("disp")
     secondpage.classList.remove("nodisp")
     secondpage.classList.add(inanimback)
     secondpage.addEventListener('animationend', () => {
@@ -28,11 +26,9 @@ function pageup() {
     secondpage = document.getElementById("greeter-page-" + (currentpage - 1))
     firstpage.classList.add(outanim)
     firstpage.addEventListener('animationend', () => {
-        firstpage.classList.remove("disp")
         firstpage.classList.add("nodisp")
         firstpage.classList.remove(outanim)
     });
-    secondpage.classList.add("disp")
     secondpage.classList.remove("nodisp")
     secondpage.classList.add(inanim)
     secondpage.addEventListener('animationend', () => {

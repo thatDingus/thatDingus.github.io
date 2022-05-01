@@ -8,41 +8,35 @@
 /* Ids */
 
 #content {
-    margin: 0px;
-    float: left;
     background-color: 1F0322;
-    height: 100vh;
     overflow: hidden;
 }
 
 /* Classes */
 
-.transform-center {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
 .hover-mouse:hover {
     cursor: pointer;
 }
 
-.redirector, .arrow {
-    line-height: 5vw;
-}
-
 .nodisp {
-    display: none;
+    position: absolute;
+    top: -100vh;
 }
 
-.disp {
-    display: block;
+.footer {
+    position: absolute;
+    padding: 10px;
+    bottom: 0;
+    left: 0;
 }
 
 /* Elements */
 
 audio {
     display: none;
+}
+
+h1, h1:hover {
+    font-size: 10vh !important;
+    line-height: 10vh !important;
 }
